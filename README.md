@@ -1,1 +1,5 @@
 # algorithms
+
+```
+ go test -bench=.
+```
