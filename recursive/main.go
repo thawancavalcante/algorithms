@@ -31,7 +31,7 @@ func findLargestSquareSize(bigSize int, smallSize int) (int, int) {
 		return smallSize, smallSize
 	}
 
-	maximumParts := int(bigSize / smallSize)
+	maximumParts := bigSize / smallSize
 	newSize := bigSize - smallSize*maximumParts
 
 	if newSize > smallSize {
